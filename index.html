@@ -23,7 +23,7 @@
         <h1>Contáctanos</h1>
     </header>
     <br>
-<form action="action_page.php">
+<form action="contac.php" method="POST"">
         <fieldset>
             <legend><b>Ingresa tus datos</b></legend>
 
@@ -33,7 +33,7 @@
                     <label for="name">Nombre/s</label>
                 </div>
                 <div class="col-75">
-                    <input type="text" id="name" name="nombre " placeholder="Escribe tu Nombre" pattern="[A-Za-z]+" title="ingresá sólo letras" required>
+                    <input type="text" id="name" name="name" placeholder="Escribe tu Nombre" pattern="[A-Za-z]+" title="ingresá sólo letras" required>
                 </div>
             </div>
 
@@ -87,7 +87,7 @@
                     <label for="subject">Déjanos tu mensaje</label>
                 </div>
                 <div class="col-75">
-                    <textarea id="subject" name="subject" placeholder="Deposite aquí su comentario, sugerencia, queja, lo que desees (max1000caracteres).." style="height:200px" maxlength="1000"></textarea>
+                    <textarea id="subject" name="message" placeholder="Deposite aquí su comentario, sugerencia, queja, lo que desees (max1000caracteres).." style="height:200px" maxlength="1000"></textarea>
                 </div>
             </div>
         </fieldset>
